@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             saveItems();
             Toast.makeText(getApplicationContext(), "Item updated", Toast.LENGTH_SHORT).show();
         } else {
-            Log.w("MainActiviyt", "Unkown call to onActivityResult");
+            Log.w("MainActiviyt", "Unknown call to onActivityResult");
         }
     }
 
